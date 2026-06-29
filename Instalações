@@ -1,0 +1,5 @@
+sudo pacman -S gamemode lib32-gamemode fastfetch p7zip unrar unzip zip lrzip lzop file-roller ffmpeg gstreamer gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav gwenview okular ark
+
+
+
+yay -S ttf-ms-fonts  ttf-vista-fonts ttf-ms-win11 topgrade
