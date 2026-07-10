@@ -2,4 +2,4 @@ sudo pacman -S dolphin gamemode lib32-gamemode fastfetch p7zip unrar unzip zip l
 
 
 
-yay -S ttf-ms-fonts  ttf-vista-fonts ttf-ms-win11 topgrade
+yay -S ttf-ms-fonts  ttf-vista-fonts ttf-ms-win11 topgrade-bin
