@@ -1,0 +1,8 @@
+sudo pacman -S xreader xviewer
+
+
+yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick lightdm-settings bibata-cursor-theme-bin webapp-manager ttf-ms-fonts ttf-vista-fonts
+
+
+
+sudo groupadd -f autologin && sudo gpasswd -a $USER autologin
