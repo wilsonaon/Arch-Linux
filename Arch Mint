@@ -4,9 +4,7 @@ sudo pacman -S xreader xviewer
 yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin webapp-manager ttf-ms-fonts ttf-vista-fonts topgrade-bin
 nemo-fileroller file-roller
 
-sudo pacman -S p7zip unrar unzip zip lrzip lzop
-sudo pacman -S ttf-liberation ttf-dejavu opendesktop-fonts
-sudo pacman -S ntfs-3g exfatprogs gvfs gvfs-mtp
+sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
 
 Adicionar AUto login
 
