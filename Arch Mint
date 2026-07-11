@@ -8,4 +8,16 @@ sudo pacman -S p7zip unrar unzip zip lrzip lzop
 sudo pacman -S ttf-liberation ttf-dejavu opendesktop-fonts
 sudo pacman -S ntfs-3g exfatprogs gvfs gvfs-mtp
 
-sudo groupadd -f autologin && sudo gpasswd -a $USER autologin
+Adicionar AUto login
+
+sudo groupadd -r autologin
+sudo usermod -aG autologin wilson
+
+sudo xed /etc/lightdm/lightdm.conf
+
+Dentro do arquivo, aperte Ctrl + W (para buscar) e digite: [Seat:*]. Aperte Enter.
+
+Logo abaixo dessa linha [Seat:*], role um pouco para baixo até encontrar estas duas linhas (elas provavelmente estarão com um # no começo, o que significa que estão comentadas):
+
+autologin-user=wilson
+autologin-user-timeout=0
