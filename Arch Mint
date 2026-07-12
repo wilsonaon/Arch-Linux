@@ -1,4 +1,4 @@
-sudo pacman -S xreader xviewer nemo-fileroller
+sudo pacman -S xreader xviewer nemo-fileroller gnome-calculator
 
 
 yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin
