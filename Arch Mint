@@ -6,6 +6,9 @@ yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mint
 sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
 sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss
 
+flatpaks
+flatpak install flathub dev.goats.xivlauncher org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird
+
 Adicionar AUto login
 
 sudo groupadd -r autologin
