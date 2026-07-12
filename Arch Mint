@@ -1,8 +1,7 @@
-sudo pacman -S xreader xviewer
+sudo pacman -S xreader xviewer nemo-fileroller
 
 
-yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin webapp-manager ttf-ms-fonts ttf-vista-fonts topgrade-bin
-nemo-fileroller file-roller
+yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin
 
 sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
 
