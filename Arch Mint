@@ -7,7 +7,7 @@ sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opende
 sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss
 
 flatpaks
-flatpak install flathub dev.goats.xivlauncher org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird
+flatpak install flathub dev.goats.xivlauncher org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird net.nokyan.Resources
 
 Adicionar AUto login
 
