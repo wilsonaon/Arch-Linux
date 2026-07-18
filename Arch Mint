@@ -1,7 +1,7 @@
 sudo pacman -S xreader xviewer nemo-fileroller gnome-calculator seahorse
 
 
-yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin
+yay -S --noconfirm mint-themes mint-y-icons mint-x-icons mint-cursor-themes mintstick bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin webapp-manager
 
 sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
 sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss
