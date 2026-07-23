@@ -1,0 +1,105 @@
+#abrir arquivo de configuracao
+mousepad ~/.config/kitty/kitty.conf &
+
+
+
+
+
+mkdir -p ~/.config/kitty && cat << 'EOF' > ~/.config/kitty/kitty.conf
+# ==============================================================================
+# KITTY TERMINAL CONFIGURATION - MODERN & ELEGANT SETUP
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# FONTE & TYPOGRAPHY
+# ------------------------------------------------------------------------------
+font_family      family="JetBrains Mono"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+font_size        11.5
+line_height      1.2
+
+# ------------------------------------------------------------------------------
+# MOUSE & BOTÃO DO MEIO (SELEÇÃO E COLAR)
+# ------------------------------------------------------------------------------
+mouse_hide_wait             3.0
+focus_follows_mouse         yes
+copy_on_select              clipboard
+strip_trailing_spaces       smart
+
+# Configuração do Botão do Meio do Mouse para Colar
+mouse_map middle release ungrabbed paste_from_selection
+mouse_map middle release grabbed   paste_from_selection
+
+# ------------------------------------------------------------------------------
+# DESIGN DA JANELA, TRANSPARÊNCIA & PADDING
+# ------------------------------------------------------------------------------
+window_padding_width        12 16 12 16
+remember_window_size        yes
+initial_window_width        960
+initial_window_height       600
+confirm_os_window_close     0
+background_opacity         0.95
+dynamic_background_opacity yes
+
+# Bordas para painéis divididos
+window_border_width         1.5pt
+active_border_color         #7aa2f7
+inactive_border_color       #292e42
+
+# ------------------------------------------------------------------------------
+# BARRA DE ABAS (Estilo Powerline / Moderno)
+# ------------------------------------------------------------------------------
+tab_bar_edge                top
+tab_bar_style               powerline
+tab_powerline_style         slanted
+tab_bar_align               left
+tab_bar_min_tabs            1
+active_tab_font_style       bold
+
+# ------------------------------------------------------------------------------
+# SCHEME DE CORES (Tokyo Night Hybrid)
+# ------------------------------------------------------------------------------
+foreground                  #c0caf5
+background                  #1a1b26
+selection_foreground        #1a1b26
+selection_background        #7aa2f7
+cursor                      #c0caf5
+cursor_text_color           #1a1b26
+
+# Cores Normais & Brilhantes
+color0  #15161e
+color8  #414868
+color1  #f7768e
+color9  #f7768e
+color2  #9ece6a
+color10 #9ece6a
+color3  #e0af68
+color11 #e0af68
+color4  #7aa2f7
+color12 #7aa2f7
+color5  #bb9af7
+color13 #bb9af7
+color6  #7dcfff
+color14 #7dcfff
+color7  #a9b1d6
+color15 #c0caf5
+
+active_tab_foreground       #1a1b26
+active_tab_background       #7aa2f7
+inactive_tab_foreground     #a9b1d6
+inactive_tab_background     #16161e
+tab_bar_background          #15161e
+
+# ------------------------------------------------------------------------------
+# ATALHOS DE TECLADO ÚTEIS
+# ------------------------------------------------------------------------------
+map ctrl+shift+c        copy_to_clipboard
+map ctrl+shift+v        paste_from_clipboard
+map ctrl+shift+t        new_tab
+map ctrl+shift+q        close_tab
+map ctrl+shift+enter    new_window
+map ctrl+plus           change_font_size all +1.0
+map ctrl+minus          change_font_size all -1.0
+EOF
