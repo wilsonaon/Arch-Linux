@@ -1,0 +1,10 @@
+sudo pacman -S xfce4-goodies
+sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
+sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss
+
+
+#flatpaks
+flatpak install org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird net.nokyan.Resources
+
+
+Adicionar auto login
