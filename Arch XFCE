@@ -1,11 +1,11 @@
-sudo pacman -S xfce4-goodies
+sudo pacman -S xfce4-goodies papirus-icon-theme
 sudo pacman -S p7zip unrar unzip zip lrzip lzop ttf-liberation ttf-dejavu opendesktop-fonts ntfs-3g exfatprogs gvfs gvfs-mtp
-sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss
+sudo pacman -S ffmpeg gst-plugins-base gst-plugins-good gst-plugins-bad gst-plugins-ugly gst-libav libdvdcss 
 
 
 
 
-yay -S bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin ttf-google-fonts-git greybird-gtk-theme elementary-xfce-icons arc-gtk-theme-git arc-solid-gtk-theme-git zuki-themes mintstick  
+yay -S bibata-cursor-theme-bin ttf-ms-fonts ttf-vista-fonts topgrade-bin ttf-google-fonts-git mintstick greybird-gtk-theme arc-gtk-theme-git
 
 #flatpaks
 flatpak install org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird net.nokyan.Resources
