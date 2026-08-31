@@ -4,4 +4,4 @@ sudo pacman -S --needed p7zip unrar unzip zip lrzip lzop
 sudo pacman -S --needed ttf-liberation ttf-dejavu opendesktop-fonts
 sudo pacman -S --needed ntfs-3g exfatprogs gvfs gvfs-mtp
 
-yay -S ttf-ms-fonts  ttf-vista-fonts ttf-ms-win11 topgrade-bin
+yay -S ttf-ms-fonts topgrade-bin
