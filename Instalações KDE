@@ -3,8 +3,9 @@ sudo pacman -S --needed dolphin gamemode lib32-gamemode fastfetch p7zip unrar un
 sudo pacman -S --needed ttf-liberation ttf-dejavu opendesktop-fonts
 sudo pacman -S --needed ntfs-3g exfatprogs gvfs gvfs-mtp
 
+
 #AUR
 yay -S ttf-ms-fonts topgrade-bin
 
 #Flatpaks
-flatpak install org.videolan.VLC com.google.Chrome com.vysp3r.ProtonPlus org.onlyoffice.desktopeditors org.mozilla.thunderbird
+flatpak install org.videolan.VLC com.google.Chrome org.mozilla.thunderbird
