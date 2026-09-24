@@ -103,3 +103,9 @@ map ctrl+shift+enter    new_window
 map ctrl+plus           change_font_size all +1.0
 map ctrl+minus          change_font_size all -1.0
 EOF
+# 1. Copia automaticamente para a área de transferência assim que você solta o botão esquerdo
+copy_on_select yes
+
+# 2. Cola o conteúdo da área de transferência ao clicar com o botão direito
+mouse_map right press ungrabbed paste_from_clipboard
+mouse_map shift+right press grabbed,ungrabbed paste_from_clipboard
