@@ -1,0 +1,15 @@
+Topgrade Configs
+
+kate ~/.config/topgrade.toml
+
+
+Desabilitando Auto Update
+
+[misc]
+no_self_update = true
+
+
+Deixando AUTOMATICO
+
+[misc]
+assume_yes = true
