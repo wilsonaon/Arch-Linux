@@ -5,3 +5,9 @@ sudo nano /etc/fstab
 #ADICIONAR FIM DO ARQUIVO
 
 UUID=d88eb048-b641-4e99-af53-ec46969a9739 /mnt/HD ext4 defaults,noatime,exec 0 2
+
+
+
+#Permissoes
+sudo chown -R $USER:$USER /mnt/HD
+sudo chmod -R u+rwX /mnt/HD
