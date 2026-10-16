@@ -8,4 +8,4 @@ sudo pacman -S --needed ntfs-3g exfatprogs gvfs gvfs-mtp
 yay -S ttf-ms-fonts ttf-vista-fonts topgrade-bin
 
 #Flatpaks
-flatpak install org.videolan.VLC com.google.Chrome org.mozilla.thunderbird com.brave.Browser org.mozilla.firefox com.vysp3r.ProtonPlus
+flatpak install org.videolan.VLC com.google.Chrome org.mozilla.thunderbird com.brave.Browser org.mozilla.firefox com.vysp3r.ProtonPlus io.github.kolunmi.Bazaar
