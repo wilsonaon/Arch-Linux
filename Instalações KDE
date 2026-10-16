@@ -5,7 +5,7 @@ sudo pacman -S --needed ntfs-3g exfatprogs gvfs gvfs-mtp
 
 
 #AUR
-yay -S ttf-ms-fonts topgrade-bin
+yay -S ttf-ms-fonts ttf-vista-fonts topgrade-bin
 
 #Flatpaks
 flatpak install org.videolan.VLC com.google.Chrome org.mozilla.thunderbird
